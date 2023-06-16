@@ -8,12 +8,13 @@
 #define SERIE_H
 
 using std::string;
+using std::vector;
 
 class Serie
 {
     private:
         string id, nomserie,genero;
-        vector <episodio*> episodios;
+        vector <Episodio*> episodios;
     public:
         Serie();
         void mostrarEpisodioSerie(string nom);
