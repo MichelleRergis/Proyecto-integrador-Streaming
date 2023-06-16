@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Serie.h"
-
+#include"Episodio.h"
 
 using std::cout;
 using std::endl;
@@ -9,7 +9,7 @@ using std::string;
 using std::ostream;
 
 Serie::Serie(){
-
+    // Constructor 
 }
 
 

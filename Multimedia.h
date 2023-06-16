@@ -1,7 +1,12 @@
 #ifndef _MULTIMEDIA_H
 #define _MULTIMEDIA_H
+
 #include <iostream>
 #include <string>
+
+using std::string;
+
+// Interfaz
 
 class Multimedia{
     public:

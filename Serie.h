@@ -2,7 +2,9 @@
 #include<iostream>
 #include <vector>
 
-#ifdef SERIE_H
+#include"Episodio.h"
+
+#ifndef SERIE_H
 #define SERIE_H
 
 using std::string;
@@ -21,6 +23,6 @@ class Serie
         void mostrarPeliculaCalificacion(float n);
 
 
-}
+};
 
 #endif
