@@ -9,6 +9,7 @@ using std::string;
 // Interfaz
 
 class Multimedia{
+   
     public:
         //Se pasa el parametro g(genero)
        virtual void MostrarPorGenero(string g) = 0;
